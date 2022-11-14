@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>kayıt ol</title>
+</head>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+body {
+  background-color:#4a4d4a;
+  color: black;
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color:#070208;
+    color: white;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is green */
+@media screen and (max-width: 600px) {
+  body {
+    background-color:#35B235;
+    color: white;
+  }
+  img{
+	  border-radius:10px;
+  }.topnav{
+  
+  border-radius:10px;}
+}
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="index.html">PROFİL</a>
+  <a href="bilgilendirme.html">BİYOGRAFİ</a>
+  <a href="kayitol.html">ÜYE OL</a>
+  
+</div>
+<div>
+<form action="" method="get">
+
+  <img id="g" <img id="c" src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAALVBMVEXk5ueutLersbTn6eqorrHg4uO4vcDAxcfW2du0ubza3d7Q09XJzc/GyszDx8ocZcs8AAAE20lEQVR4nO2d2ZakIAxAxSguqP//uQ1am9W1CARJqNy3mSfvCSSBArqqBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEoEACoxt6s9OP6z4KwNv2s6x3D0relWEI7DVZJPeEsp5G/JIDR/+3uloOpWDtCNam3elfJhbEjTO/D9+DYLEzHKvRH/DZHw1ARKn3Qb3UcWm6ONoDH/VZHZmGEpfETtIqalaLPCL0pqjb3Zx/HX29zHJmEsQ0I4EbDQzFckIlijCCPgRrj5xSppxsYIg2Vyq3wGeiixugaRNJ1EYx3oX+hOFFWjI6goxlza7wFYRJuUA0iGJQQ2nE6U1VEEiRbMmBBM1Q082lcM7OHZLKBDk9QqYFgEDFD6PrT3D7/QOhmdhCcibiCBNMpVi28GVKriWjtzF2RmGGL0HI/Gfa5nfZMyIPU0pEKIv4gJTdM0Qcptb7Gdw//CKRWwrDgC9Iq+immoSK1EIYE09BOREJtDX41dFCqiNgt28WQTqqBBPXeQafm4y5+79BJpqDTGNJZ6KcypFMuEpVDQj/SQCLBOrfYDTEUQwaG5Wea8qtF+RW//K5tSmNIp/Muf/X0Ayvg8ncxfmAnKkkypZNKqzSphlKiqX5gVz9F703rl5kUu22E6r0D9ySGg1I1dOAPU1qDFPHU3k1wIWb4A6dNfuDEEPKpL2J5xlH+yT3UJRTBg3sV7kwkOAtX0AwprQwfwTvJTq8WXij+NgJWsqG1bNqDMk7JnSzdgZFPqebRC8XfzqvKv2EZfUu2pz1GV2ISasNBsIJwRR6CTjFwoLK4q35hCHs1go9gSF2sde6P9sO7u2lo7eEfALxGaq0YTcEbNoxHHfkFcANgbo44Nh3f176gmr/Fsa47Tin0P1CZ4cOLdI2a+MbvCkA7v3pV0EZPLQW8KrhiJc0yPL0M2ZliXobcAKvpXvecJmN69+xlUXY/Abwg9zehsIq0ozFz1+nhtsMxaN0tk+nHtuKrur2qO3eD2jLLi1S6/bfuTO9Ec3+wF07OdEPdHGvbnKie2WSfy5vBh9q1vWajGBQQgHHS3nIPms6SbpNj9Rb/2L2w1CQlrV53eLH0VZLeA8q29fz2IrK3pO7JzEmA/sOD1hGSRNYdAEYlOSGs1rVj9s0Nu4xPEb47jc66SWyX8PG586vjkM3x6DZMNPWQZ6za+XeK3+qoz9/LgfE8v9VxPjevQtWlyp9vFdWZ09FjrxeRRp8VRr8X8zE56WV66M8eoA+KZ5zTgNNn4E4x+S840Ib89onqmPZHHBgz+znFlPcwUJ56jqZOd6bIdmm57TbqRB0O9mn8CNIc2oBcVfAVKQ7ekBJMcTqMmCC+IjlB7LlIKMncwTynmeq1sljwBDP22h9BuzqEfz8UCawGLtULQgjgLBhJZpkrGNnG+0/EnQxCEGkLxi8Xkz0BhUX0NbeRaKG4E1kyCOfRK3H5FP2WfRKiDHN//BFikg3VfvSZwkMYE0Qes9ARbJj7w48S/AADge3fgwT+nJHqNcQEhDbgbEIYmmuILyr2hBgyGqSB/TdwCmFtAgzTvGeZipAdGzblfsPfkNU0DJqIbBqajYC2hlWisfhXRF6JJiTVsKr3KmC7hs/K6Yq34VzzovEUFARBEARBEARBEARBEARk/gAHJEtAqO0fNwAAAABJRU5ErkJggg==" style="width:400px">
+</form>
+</div>
+<form name="form1" method="post" action="">
+  <p>
+    <label for="textfield2">Kullanıcı-Adı</label>
+    <input type="text" name="textfield" id="textfield2">
+    <label for="textfield3"></label>
+  </p>
+  <p>
+    <label for="textfield2">e-mail</label>
+    <input type="text" name="textfield2" id="textfield2">
+  </p>
+  <p>
+    <label for="textfield3">Şifre</label>
+    <input type="password" name="textfield3" id="textfield3">
+  </p>
+  <p>
+    <input type="radio" name="radio" id="radio" value="radio">
+    <label for="radio">Kadın</label>
+    <input type="radio" name="radio2" id="radio2" value="radio2">
+    <label for="radio2">Erkek</label>
+   
+  </p>
+</form>
+</body>
+</html>
+
+<body>
+</body>
+</html>
